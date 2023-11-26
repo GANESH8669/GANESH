@@ -1,0 +1,43 @@
+#total{
+    
+    background-color: #DADDB1;
+    border: 10px solid;
+}
+.photo-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid #232324e0;
+    position: relative;
+    left: 650px;
+    
+}
+
+  
+#headings{
+    margin-left: 545px;
+    
+    color: brown;
+    display: inline-block;
+    animation: colorChange 3s infinite; /* Change '3s' to adjust the animation duration */
+  }
+  
+  @keyframes colorChange {
+    0% { color: rgb(255, 0, 0); } /* Red color at the start */
+    50% { color: rgb(0, 255, 0); } /* Green color in the middle */
+    100% { color: rgb(0, 0, 255); } /* Blue color at the end */
+  }
+h2{
+    text-align: center;
+    color:#860A35 ;
+}
+.education,#skill{
+    margin-left: 560px;
+}
+#others{
+    margin-left: 690px;
+}
+#footer{
+    text-align: center;
+    color: grey;
+}
